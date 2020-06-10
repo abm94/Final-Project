@@ -1,0 +1,140 @@
+/*Lab5.css*/
+
+
+.listItem{
+    list-style-type:none;
+    border:1px solid black;
+    display:inline-block;
+    flex-direction: column;
+    margin-bottom:2%;
+    text-align: center;
+    margin-right:2%;
+    font-weight:bold;
+    border-radius:7px;
+}
+
+#contentHolder{
+    min-height:300px;
+}
+
+.activityBin{
+    min-height: 70px;
+    display:flex;
+    flex-direction: row;
+}
+
+.checkButton{
+    border-radius:7px;
+    font-size:10px;
+}
+
+.buttonInputGrouper{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+}
+
+
+
+
+#buttonBar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position:absolute;
+    bottom:5px;
+    width:98%
+}
+
+#itemInput{
+    margin-right:28px;
+}
+
+#activitiesTextInput{
+    margin-right: 13px;
+}
+.taskButton{
+    background-color: #b9e69c;
+}
+#addTaskButton{
+    background-color: rgb(155, 240, 129);
+}
+.objectiveButton{
+    background-color: #b1cce6;
+}
+#addObjectiveButton{
+    background-color: #5d62e3;
+}
+#addActivityButton{
+    background-color: rgb(242, 124, 124);
+}
+
+
+.centralTitle{
+    color: rgb(30,28,54);
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:10px;
+    font: 50px Helvetica;
+    font-variant: small-caps;
+    border-bottom: 4px dotted rgb(30,28,54);
+    width:90%;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+form{
+    margin-left:5%;
+}
+input{
+    background-color: rgb(235, 198, 134);
+}
+body{
+    background-color: rgb(250, 216, 157);
+}
+
+.listItemButton{
+    margin-left:2%;
+    
+}
+ul{
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.strikeThrough{
+    text-decoration: line-through;
+}
+.taskItem{
+    
+    border: 2px solid green;
+    color: rgb(30,100,30);
+}
+.objectiveItem{
+    
+    border: 2px solid rgb(63, 84, 117);
+    color: rgb(63, 84, 117);
+}
+
+.activityItem{
+    border: 2px solid rgb(194, 23, 26);
+    color: rgb(194, 23, 26);
+}
+
+#firstDisplay{
+    text-align: center;
+    margin-top: 13%;
+    font: 15px Helvetica;
+    font-variant: small-caps;
+}
+
+.invisible{
+    display:none;
+}
